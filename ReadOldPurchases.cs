@@ -15,9 +15,9 @@ namespace Opgave1
 
             int orderNumber = 1;
 
-            while (File.Exists(Path.Combine(Menu.OutputFolder, $"C:/Users/ahmakk/Desktop/ordre_{orderNumber}.txt"))) // Specify the output folder
+            while (File.Exists(Path.Combine(Menu.Desktop, $"ordre_{orderNumber}.txt"))) // Specify the output folder
             {
-                string fileName = Path.Combine(Menu.OutputFolder, $"C:/Users/ahmakk/Desktop/ordre_{orderNumber}.txt"); // Specify the output folder
+                string fileName = Path.Combine(Menu.Desktop, $"ordre_{orderNumber}.txt"); // Specify the output folder
 
                 using (StreamReader sr = File.OpenText(fileName))
                 {
@@ -36,6 +36,7 @@ namespace Opgave1
             {
                 Console.WriteLine("Ingen tidligere køb fundet.");
             }
+            Console.ReadKey();
         }
     }
 }

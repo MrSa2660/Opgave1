@@ -9,7 +9,7 @@ namespace Opgave1
 {
     internal class Menu
     {
-        public static readonly string OutputFolder = "Orders"; // Specify the output folder
+        public static readonly string Desktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop); // Specify the output folder
 
         static void Main()
         {
@@ -17,6 +17,7 @@ namespace Opgave1
 
             while (true)
             {
+                Console.Clear();
                 Console.WriteLine("Vælg en handling:");
                 Console.WriteLine("1. Køb billetter");
                 Console.WriteLine("2. Se gamle køb fra filer");

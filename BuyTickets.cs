@@ -34,7 +34,8 @@ namespace Opgave1
                 Console.WriteLine($"Antal billetter købt: {numTickets}");
 
                 int orderNumber = GetNextOrderNumber.getNextOrderNumber();
-                string fileName = Path.Combine(Menu.OutputFolder, $"C:/Users/ahmakk/Desktop/ordre_{orderNumber}.txt"); // Specify the output folder
+                string fileName = Path.Combine(Menu.Desktop, $"ordre_{orderNumber}.txt"); // Specify the output folder
+
 
                 using (StreamWriter sw = File.CreateText(fileName))
                 {
@@ -43,8 +44,10 @@ namespace Opgave1
                     sw.WriteLine($"Antal billetter købt: {numTickets}");
                 }
 
-                Console.WriteLine($"Ordre gemt som {fileName}");
+                Console.WriteLine($"Ordre gemt som ordre_{orderNumber}");
                 Console.WriteLine($"Filen blev gemt i følgende mappe: {Path.GetFullPath(fileName)}"); // Display the file path
+
+                Console.ReadKey();
             }
         }
     }
