@@ -34,7 +34,7 @@ namespace Opgave1
                 Console.WriteLine($"Antal billetter købt: {numTickets}");
 
                 int orderNumber = GetNextOrderNumber.getNextOrderNumber();
-                string fileName = Path.Combine(Menu.OutputFolder, $"ordre_{orderNumber}.txt"); // Specify the output folder
+                string fileName = Path.Combine(Menu.OutputFolder, $"C:/Users/ahmakk/Desktop/ordre_{orderNumber}.txt"); // Specify the output folder
 
                 using (StreamWriter sw = File.CreateText(fileName))
                 {

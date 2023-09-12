@@ -12,7 +12,7 @@ namespace Opgave1
         public static int getNextOrderNumber()
         {
             int orderNumber = 1;
-            while (File.Exists(Path.Combine(Menu.OutputFolder, $"ordre_{orderNumber}.txt"))) // Specify the output folder
+            while (File.Exists(Path.Combine(Menu.OutputFolder, $"C:/Users/ahmakk/Desktop/ordre_{orderNumber}.txt"))) // Specify the output folder
             {
                 orderNumber++;
             }

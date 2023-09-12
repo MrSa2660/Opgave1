@@ -1,0 +1,8 @@
+C:\Users\ahmakk\Documents\GitHub\Opgave1\bin\Debug\Opgave1.exe.config
+C:\Users\ahmakk\Documents\GitHub\Opgave1\bin\Debug\Opgave1.exe
+C:\Users\ahmakk\Documents\GitHub\Opgave1\bin\Debug\Opgave1.pdb
+C:\Users\ahmakk\Documents\GitHub\Opgave1\obj\Debug\Opgave1.csproj.AssemblyReference.cache
+C:\Users\ahmakk\Documents\GitHub\Opgave1\obj\Debug\Opgave1.csproj.SuggestedBindingRedirects.cache
+C:\Users\ahmakk\Documents\GitHub\Opgave1\obj\Debug\Opgave1.csproj.CoreCompileInputs.cache
+C:\Users\ahmakk\Documents\GitHub\Opgave1\obj\Debug\Opgave1.exe
+C:\Users\ahmakk\Documents\GitHub\Opgave1\obj\Debug\Opgave1.pdb
